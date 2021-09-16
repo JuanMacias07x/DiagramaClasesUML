@@ -1,24 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="DiagramaClasesUML.Vehículo">
-    <Position X="10.5" Y="1" Width="2" />
+  <Class Name="DiagramaClasesUML.Vehículo" Collapsed="true">
+    <Position X="12" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AMAAgBAAAACQAAAIgIAICAAAiEAAAIDAAAgAgADIAIQ=</HashCode>
       <FileName>Vehículo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DiagramaClasesUML.Propietario">
-    <Position X="3.5" Y="4.5" Width="1.5" />
+    <Position X="6.25" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Propietario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DiagramaClasesUML.TramiteSolicitado">
-    <Position X="3.75" Y="1" Width="1.5" />
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAABQAAAAABACABAAAAAAIAAcAAAAAAEAAAAAA=</HashCode>
+      <FileName>TramiteSolicitado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiagramaClasesUML.Comprador">
+    <Position X="10" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TramiteSolicitado.cs</FileName>
+      <FileName>Comprador.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

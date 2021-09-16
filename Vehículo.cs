@@ -24,6 +24,16 @@ namespace DiagramaClasesUML
         private string combustible;
         private string TipoServicio;
 
+        /// <param name="blindado">Posee o no blindaje</param>
+        /// <param name="capacidad">Kg/Psj</param>
+        public Vehículo(bool blindado, int capacidad, string carrocería, string cilindraje, string ClaseVehículo, string color, string combustible, string línea, string marca, int modelo, int placa, int potencia, string TipoServicio)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        /// <summary>
+        /// Posee o no blindaje
+        /// </summary>
         private int Blindado
         {
             get => default;
@@ -32,6 +42,9 @@ namespace DiagramaClasesUML
             }
         }
 
+        /// <summary>
+        /// Kg/Psj
+        /// </summary>
         private int Capacidad
         {
             get => default;
@@ -40,7 +53,7 @@ namespace DiagramaClasesUML
             }
         }
 
-        private int Carrocería
+        private string Carrocería
         {
             get => default;
             set
@@ -48,7 +61,7 @@ namespace DiagramaClasesUML
             }
         }
 
-        private int Clase
+        private string Clase
         {
             get => default;
             set
@@ -56,7 +69,7 @@ namespace DiagramaClasesUML
             }
         }
 
-        private int Color
+        private string Color
         {
             get => default;
             set
@@ -64,7 +77,7 @@ namespace DiagramaClasesUML
             }
         }
 
-        private int Combustible
+        private string Combustible
         {
             get => default;
             set
@@ -72,7 +85,7 @@ namespace DiagramaClasesUML
             }
         }
 
-        private int Línea
+        private string Línea
         {
             get => default;
             set
@@ -112,7 +125,7 @@ namespace DiagramaClasesUML
             }
         }
 
-        private int Tipo
+        private String Tipo
         {
             get => default;
             set
